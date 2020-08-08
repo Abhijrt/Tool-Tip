@@ -5,7 +5,7 @@ class DropDown extends React.Component {
   constructor() {
     super();
     this.state = {
-      direction: null,
+      direction: "top",
     };
   }
 
@@ -17,8 +17,6 @@ class DropDown extends React.Component {
   };
 
   render() {
-    // console.log("props");
-    // console.log("state213", this.state);
     return (
       <div>
         <div style={styles.mainContainer}>
