@@ -1,21 +1,24 @@
 import React from "react";
-import ToolTip from "./tooltip";
+import Button from "./btn";
 
 class DropDown extends React.Component {
   constructor() {
     super();
     this.state = {
-      direction: "",
+      direction: null,
     };
   }
 
   getDirection = (e) => {
-    console.log(e.target.value);
+    // console.log(e.target.value);
     this.setState({
-      direction: e.target.direction,
+      direction: e.target.value,
     });
   };
+
   render() {
+    // console.log("props");
+    // console.log("state213", this.state);
     return (
       <div>
         <div style={styles.mainContainer}>
@@ -30,7 +33,7 @@ class DropDown extends React.Component {
             </select>
           </div>
         </div>
-        <ToolTip direction={this.direction} />
+        <Button direction={this.state.direction} />
       </div>
     );
   }
