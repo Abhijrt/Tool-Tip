@@ -1,3 +1,36 @@
 * {
   margin: 0;
 }
+
+/* the main app component */
+.app {
+  height: 100vh;
+  background-color: antiquewhite;
+}
+
+/* main heading  */
+.mainHeading h1 {
+  margin: auto;
+  width: 10%;
+  text-align: center;
+  border: 1px solid black;
+  position: relative;
+}
+
+/* main heading tooltip */
+.toolTipCreaterForHeading {
+  visibility: hidden;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  background-color: #0c7bfe;
+  color: white;
+  font-size: xxx-large;
+  border-radius: 80px;
+  position: absolute;
+  text-align: center;
+}
+
+.mainHeading:hover .toolTipCreaterForHeading {
+  visibility: visible;
+}
