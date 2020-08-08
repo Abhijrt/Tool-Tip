@@ -18,13 +18,17 @@
   width: 10%;
   text-align: center;
   border: 1px solid black;
+  background-color: #ff4710;
   position: relative;
+  border-radius: 10%;
+  color: white;
 }
 
 /* main heading tooltip */
 .toolTipCreaterForHeading {
   visibility: hidden;
-  margin: auto;
+  margin-left: 25%;
+  margin-top: 20px;
   width: 50%;
   text-align: center;
   background-color: #0c7bfe;

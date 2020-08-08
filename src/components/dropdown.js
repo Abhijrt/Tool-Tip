@@ -51,9 +51,10 @@ const styles = {
   container: {
     height: "80%",
     width: "100%",
-    fontSize: "large",
+    fontSize: "x-large",
     backgroundColor: "red",
     color: "white",
+    borderRadius: "20%",
   },
 };
 

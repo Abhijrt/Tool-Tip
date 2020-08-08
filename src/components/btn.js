@@ -43,7 +43,7 @@ const styles = {
   downloadBtn: {
     margin: "auto",
     width: "20%",
-    backgroundColor: "red",
+    backgroundColor: "#0c7bfe",
     color: "white",
     height: "40px",
     textAlign: "center",
