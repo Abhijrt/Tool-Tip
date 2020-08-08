@@ -10,6 +10,7 @@ class tooltip extends Component {
 
   render() {
     // console.log("direction In tootltip", this.state.direction);
+    // returning the tooltip accoring to the direction
     if (this.state.direction === "top") {
       return (
         <div>
@@ -46,6 +47,7 @@ class tooltip extends Component {
   }
 }
 
+// style for the tooltip according to the direction
 const styles = {
   rotateBottom: {
     margin: "auto",

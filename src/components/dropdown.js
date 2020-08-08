@@ -9,6 +9,7 @@ class DropDown extends React.Component {
     };
   }
 
+  // get the direction from the user
   getDirection = (e) => {
     // console.log(e.target.value);
     this.setState({
@@ -21,6 +22,7 @@ class DropDown extends React.Component {
       <div>
         <div style={styles.mainContainer}>
           <div style={styles.dropDownContainer}>
+            {/* creating the dropdown list */}
             <select style={styles.container} onChange={this.getDirection}>
               <option defaultValue value="top">
                 Top
@@ -37,10 +39,10 @@ class DropDown extends React.Component {
   }
 }
 
+// styling the dropdown container
 const styles = {
   mainContainer: {
     height: "20vh",
-    backgroundColor: "antiquewhite",
     margin: "15vh",
   },
   dropDownContainer: {
