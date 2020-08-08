@@ -8,6 +8,7 @@ class Button extends Component {
     this.state = {
       direction: null,
       showToolTip: false,
+      showDownloadBtn: false,
     };
   }
 
@@ -16,6 +17,7 @@ class Button extends Component {
     this.setState({
       direction: this.props.direction,
       showToolTip: true,
+      showDownloadBtn: true,
     });
   };
 
@@ -23,22 +25,40 @@ class Button extends Component {
   hideToolTip = () => {
     this.setState({
       showToolTip: false,
+      showDownloadBtn: false,
     });
   };
 
   render() {
     return (
       <div>
-        <div style={styles.downloadBtn}>
-          {/* calling the function for showing and hiding the tooltip */}
-          <h1 onMouseEnter={this.showToolTip} onMouseLeave={this.hideToolTip}>
-            Download
-            {/* showing the tooltip */}
-            {this.state.showToolTip === true ? (
-              <ToolTip direction={this.state.direction} />
-            ) : null}
-          </h1>
-        </div>
+        {this.state.showDownloadBtn === true ? (
+          <div style={styles.downloadBtnIcon}>
+            <h1 onMouseEnter={this.showToolTip} onMouseLeave={this.hideToolTip}>
+              <i class="fas fa-download"> </i>
+              {/* showing the tooltip */}
+              {this.state.showToolTip === true ? (
+                <ToolTip
+                  direction={this.state.direction}
+                  showDownloadBtn={this.state.showDownloadBtn}
+                />
+              ) : null}
+            </h1>
+          </div>
+        ) : (
+          <div style={styles.downloadBtn}>
+            <h1 onMouseEnter={this.showToolTip} onMouseLeave={this.hideToolTip}>
+              Download
+              {/* showing the tooltip */}
+              {this.state.showToolTip === true ? (
+                <ToolTip
+                  direction={this.state.direction}
+                  showDownloadBtn={this.state.showDownloadBtn}
+                />
+              ) : null}
+            </h1>
+          </div>
+        )}
       </div>
     );
   }
@@ -50,6 +70,15 @@ const styles = {
     margin: "auto",
     width: "20%",
     backgroundColor: "#0c7bfe",
+    color: "white",
+    height: "40px",
+    textAlign: "center",
+    borderRadius: "80px",
+  },
+  downloadBtnIcon: {
+    margin: "auto",
+    width: "20%",
+    backgroundColor: "#4aaee3",
     color: "white",
     height: "40px",
     textAlign: "center",
