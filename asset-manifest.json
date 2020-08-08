@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Abhijrt/Tool-Tip/static/css/main.48e1df94.chunk.css",
-    "main.js": "/Abhijrt/Tool-Tip/static/js/main.092e0c42.chunk.js",
-    "main.js.map": "/Abhijrt/Tool-Tip/static/js/main.092e0c42.chunk.js.map",
-    "runtime-main.js": "/Abhijrt/Tool-Tip/static/js/runtime-main.e5c563b8.js",
-    "runtime-main.js.map": "/Abhijrt/Tool-Tip/static/js/runtime-main.e5c563b8.js.map",
-    "static/js/2.0e2e7a76.chunk.js": "/Abhijrt/Tool-Tip/static/js/2.0e2e7a76.chunk.js",
-    "static/js/2.0e2e7a76.chunk.js.map": "/Abhijrt/Tool-Tip/static/js/2.0e2e7a76.chunk.js.map",
-    "index.html": "/Abhijrt/Tool-Tip/index.html",
-    "precache-manifest.1d18e693b54e95d55a04eebdc8be2f2c.js": "/Abhijrt/Tool-Tip/precache-manifest.1d18e693b54e95d55a04eebdc8be2f2c.js",
-    "service-worker.js": "/Abhijrt/Tool-Tip/service-worker.js",
-    "static/css/main.48e1df94.chunk.css.map": "/Abhijrt/Tool-Tip/static/css/main.48e1df94.chunk.css.map",
-    "static/js/2.0e2e7a76.chunk.js.LICENSE.txt": "/Abhijrt/Tool-Tip/static/js/2.0e2e7a76.chunk.js.LICENSE.txt"
+    "main.css": "/Abhijrt/tooltip/static/css/main.48e1df94.chunk.css",
+    "main.js": "/Abhijrt/tooltip/static/js/main.092e0c42.chunk.js",
+    "main.js.map": "/Abhijrt/tooltip/static/js/main.092e0c42.chunk.js.map",
+    "runtime-main.js": "/Abhijrt/tooltip/static/js/runtime-main.d487a870.js",
+    "runtime-main.js.map": "/Abhijrt/tooltip/static/js/runtime-main.d487a870.js.map",
+    "static/js/2.0e2e7a76.chunk.js": "/Abhijrt/tooltip/static/js/2.0e2e7a76.chunk.js",
+    "static/js/2.0e2e7a76.chunk.js.map": "/Abhijrt/tooltip/static/js/2.0e2e7a76.chunk.js.map",
+    "index.html": "/Abhijrt/tooltip/index.html",
+    "precache-manifest.03442097a127750efc7d69da322b125f.js": "/Abhijrt/tooltip/precache-manifest.03442097a127750efc7d69da322b125f.js",
+    "service-worker.js": "/Abhijrt/tooltip/service-worker.js",
+    "static/css/main.48e1df94.chunk.css.map": "/Abhijrt/tooltip/static/css/main.48e1df94.chunk.css.map",
+    "static/js/2.0e2e7a76.chunk.js.LICENSE.txt": "/Abhijrt/tooltip/static/js/2.0e2e7a76.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.e5c563b8.js",
+    "static/js/runtime-main.d487a870.js",
     "static/js/2.0e2e7a76.chunk.js",
     "static/css/main.48e1df94.chunk.css",
     "static/js/main.092e0c42.chunk.js"
